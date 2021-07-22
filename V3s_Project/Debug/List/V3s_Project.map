@@ -1,0 +1,210 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  22/Jul/2021  14:40:15
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Exe\V3s_Project.out
+#    Map file     =  
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\List\V3s_Project.map
+#    Command line =  
+#        -f C:\Users\Bitscat\AppData\Local\Temp\EWC5E9.tmp
+#        (D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Obj\interrupt.o
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Obj\main.o
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Obj\V3s_clock.o
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Obj\V3s_gic.o
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Obj\V3s_gpio.o
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Obj\V3s_timer.o
+#        --no_out_extension -o
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Exe\V3s_Project.out
+#        --map
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\List\V3s_Project.map
+#        --config
+#        D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\v3s.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x5fff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block SVC_STACK with size = 256, alignment = 8 { };
+define block IRQ_STACK with size = 256, alignment = 8 { };
+define block FIQ_STACK with size = 256, alignment = 8 { };
+define block UND_STACK with size = 256, alignment = 8 { };
+define block ABT_STACK with size = 256, alignment = 8 { };
+define block HEAP with size = 32K, alignment = 8 { };
+"P3":  place in [from 0x0 to 0x0] |
+                [from 0x6000 to 0x9fff] {
+          rw, block CSTACK, block SVC_STACK, block IRQ_STACK, block FIQ_STACK,
+          block UND_STACK, block ABT_STACK, block HEAP };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P4"
+  rw                                  in "P3"
+  rw section application_specific_rw  in "P2|P4"
+
+
+  Section      Kind     Address    Size  Object
+  -------      ----     -------    ----  ------
+"A0":                              0x3c
+  .intvec      ro code      0x0    0x3c  cstartup.o [4]
+                         - 0x3c    0x3c
+
+"P1":                             0x4d0
+  .text        ro code     0x3c   0x284  V3s_clock.o [1]
+  .text        ro code    0x2c0    0xc4  main.o [1]
+  .text        ro code    0x384    0x9a  V3s_gpio.o [1]
+  .text        ro code    0x420    0x58  cstartup.o [4]
+  .text        ro code    0x478    0x28  fpinit.o [3]
+  .text        ro code    0x4a0    0x30  cmain.o [4]
+  .text        ro code    0x4d0     0x4  low_level_init.o [2]
+  Veneer       ro code    0x4d4     0x8  - Linker created -
+  .text        ro code    0x4dc     0x4  exit.o [2]
+  .text        ro code    0x4e0    0x14  exit.o [5]
+  .text        ro code    0x4f4    0x10  cexit.o [4]
+  .text        ro code    0x504     0x4  vectortrap.o [4]
+  .text        ro code    0x508     0x4  xreturnswi.o [5]
+                        - 0x50c   0x4d0
+
+"P3":                            0x2200
+  CSTACK                 0x6000  0x2000  <Block>
+    CSTACK     uninit    0x6000  0x2000  <Block tail>
+  IRQ_STACK              0x8000   0x100  <Block>
+    IRQ_STACK  uninit    0x8000   0x100  <Block tail>
+  FIQ_STACK              0x8100   0x100  <Block>
+    FIQ_STACK  uninit    0x8100   0x100  <Block tail>
+                       - 0x8200  0x2200
+
+Unused ranges:
+
+    From      To    Size
+    ----      --    ----
+   0x50c  0x5fff  0x5af4
+  0x8200  0x9fff  0x1e00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw data
+    ------            -------  -------
+command line/config:
+    ----------------------------------
+    Total:
+
+D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Obj: [1]
+    V3s_clock.o           644
+    V3s_gpio.o            154
+    main.o                196
+    ----------------------------------
+    Total:                994
+
+dl7Sx_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------
+    Total:                  8
+
+m7Sx_tlv.a: [3]
+    fpinit.o               40
+    ----------------------------------
+    Total:                 40
+
+rt7Sx_tl.a: [4]
+    cexit.o                16
+    cmain.o                48
+    cstartup.o            148
+    vectortrap.o            4
+    ----------------------------------
+    Total:                216
+
+sh7Sxs_l.a: [5]
+    exit.o                 20
+    xreturnswi.o            4
+    ----------------------------------
+    Total:                 24
+
+    Gaps                    2
+    Linker created          8    8 704
+--------------------------------------
+    Grand Total:        1 292    8 704
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                  Address   Size  Type      Object
+-----                  -------   ----  ----      ------
+?main                    0x4a0         Code  Gb  cmain.o [4]
+Abort_Handler            0x504         Code  Wk  vectortrap.o [4]
+CSTACK$$Base            0x6000          --   Gb  - Linker created -
+CSTACK$$Limit           0x8000          --   Gb  - Linker created -
+FIQ_Handler              0x504         Code  Wk  vectortrap.o [4]
+FIQ_STACK$$Base         0x8100          --   Gb  - Linker created -
+FIQ_STACK$$Limit        0x8200          --   Gb  - Linker created -
+GPIO_Init                0x385   0x9a  Code  Gb  V3s_gpio.o [1]
+IRQ_Handler              0x504         Code  Wk  vectortrap.o [4]
+IRQ_STACK$$Base         0x8000          --   Gb  - Linker created -
+IRQ_STACK$$Limit        0x8100          --   Gb  - Linker created -
+PLL_Init                  0x3d  0x284  Code  Gb  V3s_clock.o [1]
+Prefetch_Handler         0x504         Code  Wk  vectortrap.o [4]
+Region$$Table$$Base        0x0          --   Gb  - Linker created -
+Region$$Table$$Limit       0x0          --   Gb  - Linker created -
+SWI_Handler              0x504         Code  Wk  vectortrap.o [4]
+Undefined_Handler        0x504         Code  Wk  vectortrap.o [4]
+__cmain                  0x4a0         Code  Gb  cmain.o [4]
+__exit                   0x4e1   0x14  Code  Gb  exit.o [5]
+__iar_init_vfp           0x48c         Code  Gb  fpinit.o [3]
+__iar_init_vfp_v6        0x478         Code  Gb  fpinit.o [3]
+__iar_program_start      0x420         Code  Gb  cstartup.o [4]
+__iar_return_from_swi    0x508    0x4  Code  Gb  xreturnswi.o [5]
+__low_level_init         0x4d1    0x4  Code  Gb  low_level_init.o [2]
+__vector                   0x0         Data  Gb  cstartup.o [4]
+_call_main               0x4b8         Code  Gb  cmain.o [4]
+_exit                    0x4f4         Code  Gb  cexit.o [4]
+_main                    0x4c0         Code  Gb  cmain.o [4]
+delay_ms                 0x353   0x18  Code  Gb  main.o [1]
+delay_us                 0x345    0xe  Code  Gb  main.o [1]
+exit                     0x4dd    0x4  Code  Gb  exit.o [2]
+main                     0x2c1   0x80  Code  Gb  main.o [1]
+
+
+[1] = D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\Debug\Obj
+[2] = dl7Sx_tln.a
+[3] = m7Sx_tlv.a
+[4] = rt7Sx_tl.a
+[5] = sh7Sxs_l.a
+
+  1 292 bytes of readonly  code memory
+  8 704 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
