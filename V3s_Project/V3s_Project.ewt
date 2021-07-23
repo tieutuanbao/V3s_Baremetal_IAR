@@ -2377,6 +2377,9 @@
                 <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\clock.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\de.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\display.c</name>
             </file>
             <file>

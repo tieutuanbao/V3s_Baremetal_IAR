@@ -14,6 +14,7 @@
 #include "display.h"
 #include "gpio.h"
 #include "clock.h"
+#include "de.h"
 
 
 void display_Init(){
@@ -26,15 +27,16 @@ void display_Init(){
 	GPIO_InitStruct.Pull = GPIO_PULL_NONE;
 	GPIO_InitStruct.MultiDriving = GPIO_DRV_3;
 	GPIO_Init(GPIOE, &GPIO_InitStruct);
-	
-	/* ------------------ TCON Disable ------------------ */
-	
-	
+		
 	/* ------------------ CLOCK Init ------------------ */
 	PLL_Init(PLL_VIDEO, (PLL_PARAM_TypeDef){.P = 1, .N = 100, .K = 1, .M = 4});		//PLL_Video = (24 * N) / M        N=[1,128] M=[1,16]
 	PLL_Init(PLL_VE, (PLL_PARAM_TypeDef){.P = 1, .N = 100, .K = 1, .M = 4});		//PLL_VE = (24 * N) / M        N=[1,128] M=[1,16]
 	
-	CCU_DE_CLK |= (1U<<31);			// Enable Gating Clock
-	CCU_TCON_CLK |= (1U<<31);			// Enable Gating Clock
+	write32(CCU_DE_CLK, read32(CCU_DE_CLK)|(1U<<31));					// Enable Gating Clock
+	write32(CCU_TCON_CLK, read32(CCU_TCON_CLK)|(1U<<31));			// Enable Gating Clock
 	
+	/* ------------------ TCON Disable ------------------ */
+	write32(TCON_BASE, read32(TCON_BASE)|(1U<<31));
+	/* ------------------ DE set mode ------------------ */
+//	write32();
 }

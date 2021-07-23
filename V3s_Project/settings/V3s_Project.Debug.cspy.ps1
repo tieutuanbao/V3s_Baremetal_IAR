@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\settings\V3s_Project.Debug.general.xcl" --backend -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\settings\V3s_Project.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\settings\V3s_Project.Debug.general.xcl" --backend -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\settings\V3s_Project.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\settings\V3s_Project.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\settings\V3s_Project.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\settings\V3s_Project.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\settings\V3s_Project.Debug.driver.xcl" 
 }

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\settings\V3s_Project.Debug.general.xcl" --backend -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\settings\V3s_Project.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\settings\V3s_Project.Debug.general.xcl" --backend -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\settings\V3s_Project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\settings\V3s_Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\settings\V3s_Project.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\settings\V3s_Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\settings\V3s_Project.Debug.driver.xcl" 
 
 @echo off 
 :end
