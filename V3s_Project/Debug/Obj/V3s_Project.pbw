@@ -6838,13 +6838,27 @@
     "scope": null
   },
   {
-    "ID": "c:@vram",
+    "ID": "c:@vrambuf",
     "What": "Variable",
     "defdec": "Dec",
+    "display": "vrambuf",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
+    },
+    "name": "vrambuf",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@vram",
+    "What": "Variable",
+    "defdec": "Def",
     "display": "vram",
     "location": {
       "column": "10",
-      "line": "19",
+      "line": "20",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "vram",
@@ -6858,7 +6872,7 @@
     "display": "void DE_set_mode(uint32_t, uint32_t)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "22",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "DE_set_mode",
@@ -6866,13 +6880,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@467@F@DE_set_mode@temp",
+    "ID": "c:de.c@506@F@DE_set_mode@temp",
     "What": "Variable",
     "defdec": "Def",
     "display": "temp",
     "location": {
       "column": "11",
-      "line": "22",
+      "line": "23",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "temp",
@@ -6880,13 +6894,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@488@F@DE_set_mode@size",
+    "ID": "c:de.c@527@F@DE_set_mode@size",
     "What": "Variable",
     "defdec": "Def",
     "display": "size",
     "location": {
       "column": "11",
-      "line": "23",
+      "line": "24",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "size",
@@ -6894,13 +6908,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@544@F@DE_set_mode@pixlen",
+    "ID": "c:de.c@583@F@DE_set_mode@pixlen",
     "What": "Variable",
     "defdec": "Def",
     "display": "pixlen",
     "location": {
       "column": "11",
-      "line": "24",
+      "line": "25",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "pixlen",
@@ -6908,13 +6922,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@586@F@DE_set_mode@glb",
+    "ID": "c:de.c@625@F@DE_set_mode@glb",
     "What": "Variable",
     "defdec": "Def",
     "display": "glb",
     "location": {
       "column": "19",
-      "line": "25",
+      "line": "26",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "glb",
@@ -6922,13 +6936,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@644@F@DE_set_mode@bld",
+    "ID": "c:de.c@683@F@DE_set_mode@bld",
     "What": "Variable",
     "defdec": "Def",
     "display": "bld",
     "location": {
       "column": "19",
-      "line": "26",
+      "line": "27",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "bld",
@@ -6936,13 +6950,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@1464@F@DE_set_mode@i",
+    "ID": "c:de.c@1503@F@DE_set_mode@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "14",
-      "line": "59",
+      "line": "60",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "i",
@@ -6950,13 +6964,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@1498@F@DE_set_mode@chan",
+    "ID": "c:de.c@1537@F@DE_set_mode@chan",
     "What": "Variable",
     "defdec": "Def",
     "display": "chan",
     "location": {
       "column": "10",
-      "line": "61",
+      "line": "62",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "chan",
@@ -6964,13 +6978,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@1952@F@DE_set_mode@i",
+    "ID": "c:de.c@1991@F@DE_set_mode@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "14",
-      "line": "74",
+      "line": "75",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "i",
@@ -6992,7 +7006,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@3011@F@DE_Enable@glb",
+    "ID": "c:de.c@3048@F@DE_Enable@glb",
     "What": "Variable",
     "defdec": "Def",
     "display": "glb",
@@ -7002,6 +7016,34 @@
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "glb",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DE_Set_Address",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DE_Set_Address(void)",
+    "location": {
+      "column": "6",
+      "line": "106",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
+    },
+    "name": "DE_Set_Address",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:de.c@3174@F@DE_Set_Address@ui",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ui",
+    "location": {
+      "column": "18",
+      "line": "108",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
+    },
+    "name": "ui",
     "origin": "project_file",
     "scope": null
   },
@@ -22205,7 +22247,7 @@
     "ID": "c:@F@TCON_Enable",
     "What": "Function",
     "defdec": "Def",
-    "display": "void TCON_Enable(struct fb_v3s_pdata_t *)",
+    "display": "void TCON_Enable(void)",
     "location": {
       "column": "6",
       "line": "78",
@@ -22216,7 +22258,7 @@
     "scope": null
   },
   {
-    "ID": "c:tcon.c@2816@F@TCON_Enable@tcon",
+    "ID": "c:tcon.c@2788@F@TCON_Enable@tcon",
     "What": "Variable",
     "defdec": "Def",
     "display": "tcon",
@@ -22230,7 +22272,7 @@
     "scope": null
   },
   {
-    "ID": "c:tcon.c@2867@F@TCON_Enable@val",
+    "ID": "c:tcon.c@2839@F@TCON_Enable@val",
     "What": "Variable",
     "defdec": "Def",
     "display": "val",

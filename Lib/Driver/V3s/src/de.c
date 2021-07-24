@@ -16,7 +16,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-uint8_t *vram;
+uint8_t vrambuf[800*480*4];
+uint8_t *vram = vrambuf;
 
 void DE_set_mode(uint32_t width, uint32_t height){
 	uint32_t temp = 0;
@@ -97,8 +98,13 @@ void DE_set_mode(uint32_t width, uint32_t height){
 	write32((uint32_t)&(((DE_UI_TypeDef *)(DE_RTM0_CHAN + 0x1000 * 2))->ovl_size), size);
 }
 
-
 void DE_Enable(){	
 	DE_GLB_TypeDef * glb = (DE_GLB_TypeDef *)(DE_RTM0_GLB);
 	write32((uint32_t)&glb->dbuff, 1);
+}
+
+void DE_Set_Address()
+{
+	DE_UI_TypeDef * ui = (DE_UI_TypeDef *)(DE_RTM0_CHAN + 0x1000 * 2);
+	write32((uint32_t)&ui->cfg[0].top_laddr, (uint32_t)vram);
 }

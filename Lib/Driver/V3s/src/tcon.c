@@ -75,7 +75,7 @@ void TCON_set_mode(uint16_t width, uint16_t height, uint8_t bits_per_pixel, TCON
 	write32((uint32_t)&tcon->tcon0_io_tristate, 0);
 }
 
-void TCON_Enable(struct fb_v3s_pdata_t * pdat)
+void TCON_Enable()
 {
 	TCON_TypeDef * tcon = (TCON_TypeDef *)TCON_BASE;
 	uint32_t val;

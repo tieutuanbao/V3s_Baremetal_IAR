@@ -168,10 +168,6 @@
             <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\de.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 77</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 71</file>
                 </tool>
@@ -183,7 +179,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 12 4 48 22 14 78 41 26 20 30 43 67 21 60</file>
+                    <file> 12 4 22 48 14 78 41 26 20 30 43 67 21 60</file>
                 </tool>
             </inputs>
         </file>
@@ -451,7 +447,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 22 30 14 78 26 49 4 20 83 21</file>
+                    <file> 22 4 14 78 49 26 30 20 83 21</file>
                 </tool>
             </inputs>
         </file>
