@@ -25,8 +25,8 @@
 #define DE_DISP_SYS_SCLK_DIV				(DE_DISP_SYS + 0x00C)
 #define DE_DISP_SYS_D2TCON_MUX			(DE_DISP_SYS + 0x010)
 
-#define DE_RTM0_GLB									((DE_GLB_TypeDef *)(DE_RTM0 + 0x00000))
-#define DE_RTM0_BLD									((DE_BLD_TypeDef *)(DE_RTM0 + 0x01000))
+#define DE_RTM0_GLB									(DE_RTM0 + 0x00000)
+#define DE_RTM0_BLD									(DE_RTM0 + 0x01000)
 #define DE_RTM0_CHAN								(DE_RTM0 + 0x02000)
 #define DE_RTM0_VSU									(DE_RTM0 + 0x20000)
 #define DE_RTM0_GSU1								(DE_RTM0 + 0x30000)
@@ -41,10 +41,10 @@
 #define DE_RTM0_DCSC								(DE_RTM0 + 0xb0000)
 
 typedef struct{
-	volatile uint32_t ctl;
-	volatile uint32_t status;
-	volatile uint32_t dbuff;
-	volatile uint32_t size;
+	uint32_t ctl;
+	uint32_t status;
+	uint32_t dbuff;
+	uint32_t size;
 } DE_GLB_TypeDef;
 
 typedef struct{

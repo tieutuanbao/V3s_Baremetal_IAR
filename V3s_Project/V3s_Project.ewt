@@ -2392,6 +2392,9 @@
                 <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\interrupt.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\tcon.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\timer.c</name>
             </file>
         </group>

@@ -136,6 +136,7 @@ typedef enum
 } CLK_VID_SRC_Enum;
 	
 void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam);
+uint64_t PLL_Get_Clock(PLL_CTRL_Enum pll_control);
 
 #ifdef __cplusplus
 }

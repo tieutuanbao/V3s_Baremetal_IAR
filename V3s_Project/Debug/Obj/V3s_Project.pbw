@@ -2786,6 +2786,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@PLL_Get_Clock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint64_t PLL_Get_Clock(PLL_CTRL_Enum)",
+    "location": {
+      "column": "10",
+      "line": "139",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\clock.h"
+    },
+    "name": "PLL_Get_Clock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PLL_Get_Clock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint64_t PLL_Get_Clock(PLL_CTRL_Enum)",
+    "location": {
+      "column": "10",
+      "line": "139",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\clock.h"
+    },
+    "name": "PLL_Get_Clock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:yvals.h@120@macro@_YVALS",
     "What": "MacroDef",
     "defdec": "Def",
@@ -4010,6 +4038,132 @@
     "scope": null
   },
   {
+    "ID": "c:@F@PLL_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PLL_Init(PLL_CTRL_Enum, PLL_PARAM_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "PLL_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clock.c@658@F@PLL_Init@temp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "temp",
+    "location": {
+      "column": "11",
+      "line": "28",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "temp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PLL_Get_Clock",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint64_t PLL_Get_Clock(PLL_CTRL_Enum)",
+    "location": {
+      "column": "10",
+      "line": "138",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "PLL_Get_Clock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clock.c@4811@F@PLL_Get_Clock@r",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "r",
+    "location": {
+      "column": "11",
+      "line": "140",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "r",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clock.c@4811@F@PLL_Get_Clock@n",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "n",
+    "location": {
+      "column": "14",
+      "line": "140",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "n",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clock.c@4811@F@PLL_Get_Clock@k",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "k",
+    "location": {
+      "column": "17",
+      "line": "140",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "k",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clock.c@4811@F@PLL_Get_Clock@m",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "m",
+    "location": {
+      "column": "20",
+      "line": "140",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "m",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clock.c@4811@F@PLL_Get_Clock@p",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "p",
+    "location": {
+      "column": "23",
+      "line": "140",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "p",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clock.c@4837@F@PLL_Get_Clock@rate",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "rate",
+    "location": {
+      "column": "11",
+      "line": "141",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
+    },
+    "name": "rate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:DLib_Defaults.h@1171@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -4385,34 +4539,6 @@
     },
     "name": "__WEAK_DEFS",
     "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PLL_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PLL_Init(PLL_CTRL_Enum, PLL_PARAM_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "26",
-      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
-    },
-    "name": "PLL_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:clock.c@658@F@PLL_Init@temp",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "temp",
-    "location": {
-      "column": "11",
-      "line": "28",
-      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\clock.c"
-    },
-    "name": "temp",
-    "origin": "project_file",
     "scope": null
   },
   {
@@ -5662,7 +5788,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@852@macro@DE_RTM0_BLD",
+    "ID": "c:de.h@832@macro@DE_RTM0_BLD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_BLD",
@@ -5676,7 +5802,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@921@macro@DE_RTM0_CHAN",
+    "ID": "c:de.h@881@macro@DE_RTM0_CHAN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_CHAN",
@@ -5690,7 +5816,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@970@macro@DE_RTM0_VSU",
+    "ID": "c:de.h@930@macro@DE_RTM0_VSU",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_VSU",
@@ -5704,7 +5830,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1019@macro@DE_RTM0_GSU1",
+    "ID": "c:de.h@979@macro@DE_RTM0_GSU1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_GSU1",
@@ -5718,7 +5844,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1068@macro@DE_RTM0_GSU2",
+    "ID": "c:de.h@1028@macro@DE_RTM0_GSU2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_GSU2",
@@ -5732,7 +5858,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1117@macro@DE_RTM0_GSU3",
+    "ID": "c:de.h@1077@macro@DE_RTM0_GSU3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_GSU3",
@@ -5746,7 +5872,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1166@macro@DE_RTM0_FCE",
+    "ID": "c:de.h@1126@macro@DE_RTM0_FCE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_FCE",
@@ -5760,7 +5886,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1215@macro@DE_RTM0_BWS",
+    "ID": "c:de.h@1175@macro@DE_RTM0_BWS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_BWS",
@@ -5774,7 +5900,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1264@macro@DE_RTM0_LTI",
+    "ID": "c:de.h@1224@macro@DE_RTM0_LTI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_LTI",
@@ -5788,7 +5914,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1313@macro@DE_RTM0_PEAK",
+    "ID": "c:de.h@1273@macro@DE_RTM0_PEAK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_PEAK",
@@ -5802,7 +5928,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1362@macro@DE_RTM0_ASE",
+    "ID": "c:de.h@1322@macro@DE_RTM0_ASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_ASE",
@@ -5816,7 +5942,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1411@macro@DE_RTM0_FCC",
+    "ID": "c:de.h@1371@macro@DE_RTM0_FCC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_FCC",
@@ -5830,7 +5956,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.h@1460@macro@DE_RTM0_DCSC",
+    "ID": "c:de.h@1420@macro@DE_RTM0_DCSC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DE_RTM0_DCSC",
@@ -5860,7 +5986,7 @@
         "defdec": "Def",
         "display": "ctl",
         "location": {
-          "column": "20",
+          "column": "11",
           "line": "44",
           "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\de.h"
         },
@@ -5874,7 +6000,7 @@
         "defdec": "Def",
         "display": "status",
         "location": {
-          "column": "20",
+          "column": "11",
           "line": "45",
           "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\de.h"
         },
@@ -5888,7 +6014,7 @@
         "defdec": "Def",
         "display": "dbuff",
         "location": {
-          "column": "20",
+          "column": "11",
           "line": "46",
           "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\de.h"
         },
@@ -5902,7 +6028,7 @@
         "defdec": "Def",
         "display": "size",
         "location": {
-          "column": "20",
+          "column": "11",
           "line": "47",
           "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\de.h"
         },
@@ -5955,7 +6081,7 @@
         "scope": "_anonymous_de_h_50_9"
       },
       {
-        "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1688",
+        "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1612",
         "What": "Struct",
         "defdec": "Def",
         "display": "",
@@ -5966,7 +6092,7 @@
         },
         "members": [
           {
-            "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1688@FI@fcolor",
+            "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1612@FI@fcolor",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "fcolor",
@@ -5980,7 +6106,7 @@
             "scope": "_anonymous_de_h_50_9::_anonymous_de_h_52_2"
           },
           {
-            "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1688@FI@insize",
+            "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1612@FI@insize",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "insize",
@@ -5994,7 +6120,7 @@
             "scope": "_anonymous_de_h_50_9::_anonymous_de_h_52_2"
           },
           {
-            "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1688@FI@offset",
+            "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1612@FI@offset",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "offset",
@@ -6008,7 +6134,7 @@
             "scope": "_anonymous_de_h_50_9::_anonymous_de_h_52_2"
           },
           {
-            "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1688@FI@dum",
+            "ID": "c:@SA@DE_BLD_TypeDef@S@de.h@1612@FI@dum",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "dum",
@@ -6281,7 +6407,7 @@
     },
     "members": [
       {
-        "ID": "c:@SA@DE_V_TypeDef@S@de.h@2139",
+        "ID": "c:@SA@DE_V_TypeDef@S@de.h@2063",
         "What": "Struct",
         "defdec": "Def",
         "display": "",
@@ -6292,7 +6418,7 @@
         },
         "members": [
           {
-            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2139@FI@attr",
+            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2063@FI@attr",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "attr",
@@ -6306,7 +6432,7 @@
             "scope": "_anonymous_de_h_75_9::_anonymous_de_h_76_2"
           },
           {
-            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2139@FI@size",
+            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2063@FI@size",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "size",
@@ -6320,7 +6446,7 @@
             "scope": "_anonymous_de_h_75_9::_anonymous_de_h_76_2"
           },
           {
-            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2139@FI@coord",
+            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2063@FI@coord",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "coord",
@@ -6334,7 +6460,7 @@
             "scope": "_anonymous_de_h_75_9::_anonymous_de_h_76_2"
           },
           {
-            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2139@FI@pitch",
+            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2063@FI@pitch",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "pitch",
@@ -6348,7 +6474,7 @@
             "scope": "_anonymous_de_h_75_9::_anonymous_de_h_76_2"
           },
           {
-            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2139@FI@top_laddr",
+            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2063@FI@top_laddr",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "top_laddr",
@@ -6362,7 +6488,7 @@
             "scope": "_anonymous_de_h_75_9::_anonymous_de_h_76_2"
           },
           {
-            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2139@FI@bot_laddr",
+            "ID": "c:@SA@DE_V_TypeDef@S@de.h@2063@FI@bot_laddr",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "bot_laddr",
@@ -6509,7 +6635,7 @@
     },
     "members": [
       {
-        "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464",
+        "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388",
         "What": "Struct",
         "defdec": "Def",
         "display": "",
@@ -6520,7 +6646,7 @@
         },
         "members": [
           {
-            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464@FI@attr",
+            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388@FI@attr",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "attr",
@@ -6534,7 +6660,7 @@
             "scope": "_anonymous_de_h_92_9::_anonymous_de_h_93_2"
           },
           {
-            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464@FI@size",
+            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388@FI@size",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "size",
@@ -6548,7 +6674,7 @@
             "scope": "_anonymous_de_h_92_9::_anonymous_de_h_93_2"
           },
           {
-            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464@FI@coord",
+            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388@FI@coord",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "coord",
@@ -6562,7 +6688,7 @@
             "scope": "_anonymous_de_h_92_9::_anonymous_de_h_93_2"
           },
           {
-            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464@FI@pitch",
+            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388@FI@pitch",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "pitch",
@@ -6576,7 +6702,7 @@
             "scope": "_anonymous_de_h_92_9::_anonymous_de_h_93_2"
           },
           {
-            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464@FI@top_laddr",
+            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388@FI@top_laddr",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "top_laddr",
@@ -6590,7 +6716,7 @@
             "scope": "_anonymous_de_h_92_9::_anonymous_de_h_93_2"
           },
           {
-            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464@FI@bot_laddr",
+            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388@FI@bot_laddr",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "bot_laddr",
@@ -6604,7 +6730,7 @@
             "scope": "_anonymous_de_h_92_9::_anonymous_de_h_93_2"
           },
           {
-            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464@FI@fcolor",
+            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388@FI@fcolor",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "fcolor",
@@ -6618,7 +6744,7 @@
             "scope": "_anonymous_de_h_92_9::_anonymous_de_h_93_2"
           },
           {
-            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2464@FI@dum",
+            "ID": "c:@SA@DE_UI_TypeDef@S@de.h@2388@FI@dum",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "dum",
@@ -6726,21 +6852,21 @@
     "scope": null
   },
   {
-    "ID": "c:@F@de_set_mode",
+    "ID": "c:@F@DE_set_mode",
     "What": "Function",
     "defdec": "Def",
-    "display": "void de_set_mode(uint32_t, uint32_t)",
+    "display": "void DE_set_mode(uint32_t, uint32_t)",
     "location": {
       "column": "6",
       "line": "21",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
-    "name": "de_set_mode",
+    "name": "DE_set_mode",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:de.c@467@F@de_set_mode@temp",
+    "ID": "c:de.c@467@F@DE_set_mode@temp",
     "What": "Variable",
     "defdec": "Def",
     "display": "temp",
@@ -6754,7 +6880,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@488@F@de_set_mode@size",
+    "ID": "c:de.c@488@F@DE_set_mode@size",
     "What": "Variable",
     "defdec": "Def",
     "display": "size",
@@ -6768,7 +6894,7 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@544@F@de_set_mode@pixlen",
+    "ID": "c:de.c@544@F@DE_set_mode@pixlen",
     "What": "Variable",
     "defdec": "Def",
     "display": "pixlen",
@@ -6782,13 +6908,41 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@1380@F@de_set_mode@i",
+    "ID": "c:de.c@586@F@DE_set_mode@glb",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "glb",
+    "location": {
+      "column": "19",
+      "line": "25",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
+    },
+    "name": "glb",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:de.c@644@F@DE_set_mode@bld",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bld",
+    "location": {
+      "column": "19",
+      "line": "26",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
+    },
+    "name": "bld",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:de.c@1464@F@DE_set_mode@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "14",
-      "line": "57",
+      "line": "59",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "i",
@@ -6796,13 +6950,13 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@1414@F@de_set_mode@chan",
+    "ID": "c:de.c@1498@F@DE_set_mode@chan",
     "What": "Variable",
     "defdec": "Def",
     "display": "chan",
     "location": {
       "column": "10",
-      "line": "59",
+      "line": "61",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "chan",
@@ -6810,16 +6964,44 @@
     "scope": null
   },
   {
-    "ID": "c:de.c@1940@F@de_set_mode@i",
+    "ID": "c:de.c@1952@F@DE_set_mode@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "14",
-      "line": "72",
+      "line": "74",
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
     },
     "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DE_Enable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DE_Enable(void)",
+    "location": {
+      "column": "6",
+      "line": "101",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
+    },
+    "name": "DE_Enable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:de.c@3011@F@DE_Enable@glb",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "glb",
+    "location": {
+      "column": "19",
+      "line": "102",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\de.c"
+    },
+    "name": "glb",
     "origin": "project_file",
     "scope": null
   },
@@ -20976,6 +21158,1088 @@
       "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Source\\main.c"
     },
     "name": "delay_ms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.h@26@macro@__TCON_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__TCON_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+    },
+    "name": "__TCON_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@TCON_TypeDef",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@ctrl",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ctrl",
+        "location": {
+          "column": "11",
+          "line": "9",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "ctrl",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@int0",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "int0",
+        "location": {
+          "column": "11",
+          "line": "10",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "int0",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@int1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "int1",
+        "location": {
+          "column": "11",
+          "line": "11",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "int1",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy0",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy0",
+        "location": {
+          "column": "10",
+          "line": "12",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy0",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_frm_ctrl",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_frm_ctrl",
+        "location": {
+          "column": "11",
+          "line": "13",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_frm_ctrl",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_frm_seed",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_frm_seed",
+        "location": {
+          "column": "11",
+          "line": "14",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_frm_seed",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_frm_table",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_frm_table",
+        "location": {
+          "column": "11",
+          "line": "15",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_frm_table",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy1",
+        "location": {
+          "column": "10",
+          "line": "16",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy1",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_ctrl",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_ctrl",
+        "location": {
+          "column": "11",
+          "line": "17",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_ctrl",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_dclk",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_dclk",
+        "location": {
+          "column": "11",
+          "line": "18",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_dclk",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_timing_active",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_timing_active",
+        "location": {
+          "column": "11",
+          "line": "19",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_timing_active",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_timing_h",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_timing_h",
+        "location": {
+          "column": "11",
+          "line": "20",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_timing_h",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_timing_v",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_timing_v",
+        "location": {
+          "column": "11",
+          "line": "21",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_timing_v",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_timing_sync",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_timing_sync",
+        "location": {
+          "column": "11",
+          "line": "22",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_timing_sync",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_hv_intf",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_hv_intf",
+        "location": {
+          "column": "11",
+          "line": "23",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_hv_intf",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy2",
+        "location": {
+          "column": "10",
+          "line": "24",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy2",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_cpu_intf",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_cpu_intf",
+        "location": {
+          "column": "11",
+          "line": "25",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_cpu_intf",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_cpu_wr_dat",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_cpu_wr_dat",
+        "location": {
+          "column": "11",
+          "line": "26",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_cpu_wr_dat",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_cpu_rd_dat0",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_cpu_rd_dat0",
+        "location": {
+          "column": "11",
+          "line": "27",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_cpu_rd_dat0",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_cpu_rd_dat1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_cpu_rd_dat1",
+        "location": {
+          "column": "11",
+          "line": "28",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_cpu_rd_dat1",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy3",
+        "location": {
+          "column": "10",
+          "line": "29",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy3",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_io_polarity",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_io_polarity",
+        "location": {
+          "column": "11",
+          "line": "30",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_io_polarity",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_io_tristate",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_io_tristate",
+        "location": {
+          "column": "11",
+          "line": "31",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_io_tristate",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy4",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy4",
+        "location": {
+          "column": "10",
+          "line": "32",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy4",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_ecc_fifo",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_ecc_fifo",
+        "location": {
+          "column": "11",
+          "line": "33",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_ecc_fifo",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_debug",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_debug",
+        "location": {
+          "column": "11",
+          "line": "34",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_debug",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_ceu_ctl",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_ceu_ctl",
+        "location": {
+          "column": "11",
+          "line": "35",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_ceu_ctl",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy5",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy5",
+        "location": {
+          "column": "10",
+          "line": "36",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy5",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_ceu_coef_mul",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_ceu_coef_mul",
+        "location": {
+          "column": "11",
+          "line": "37",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_ceu_coef_mul",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_ceu_coef_add0",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_ceu_coef_add0",
+        "location": {
+          "column": "11",
+          "line": "38",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_ceu_coef_add0",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy6",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy6",
+        "location": {
+          "column": "10",
+          "line": "39",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy6",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_ceu_coef_add1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_ceu_coef_add1",
+        "location": {
+          "column": "11",
+          "line": "40",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_ceu_coef_add1",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy7",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy7",
+        "location": {
+          "column": "10",
+          "line": "41",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy7",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_ceu_coef_add2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_ceu_coef_add2",
+        "location": {
+          "column": "11",
+          "line": "42",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_ceu_coef_add2",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy8",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy8",
+        "location": {
+          "column": "10",
+          "line": "43",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy8",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_ceu_coef_rang",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_ceu_coef_rang",
+        "location": {
+          "column": "11",
+          "line": "44",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_ceu_coef_rang",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy9",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy9",
+        "location": {
+          "column": "10",
+          "line": "45",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy9",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_cpu_tri",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_cpu_tri",
+        "location": {
+          "column": "11",
+          "line": "46",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_cpu_tri",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy10",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy10",
+        "location": {
+          "column": "10",
+          "line": "47",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy10",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_cmap_ctl",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_cmap_ctl",
+        "location": {
+          "column": "11",
+          "line": "48",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_cmap_ctl",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy11",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy11",
+        "location": {
+          "column": "10",
+          "line": "49",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy11",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_cmap_odd",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_cmap_odd",
+        "location": {
+          "column": "11",
+          "line": "50",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_cmap_odd",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_cmap_even",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_cmap_even",
+        "location": {
+          "column": "11",
+          "line": "51",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_cmap_even",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy12",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy12",
+        "location": {
+          "column": "10",
+          "line": "52",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy12",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_safe_period",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_safe_period",
+        "location": {
+          "column": "11",
+          "line": "53",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_safe_period",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy13",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy13",
+        "location": {
+          "column": "10",
+          "line": "54",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy13",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon0_gamma_table",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon0_gamma_table",
+        "location": {
+          "column": "11",
+          "line": "55",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon0_gamma_table",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@__dummy14",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__dummy14",
+        "location": {
+          "column": "10",
+          "line": "56",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "__dummy14",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_tri_fifo_bist",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_tri_fifo_bist",
+        "location": {
+          "column": "11",
+          "line": "57",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_tri_fifo_bist",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:@SA@TCON_TypeDef@FI@tcon_ecc_fifo_bist",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tcon_ecc_fifo_bist",
+        "location": {
+          "column": "11",
+          "line": "58",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "tcon_ecc_fifo_bist",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      },
+      {
+        "ID": "c:tcon.h@T@TCON_TypeDef",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct TCON_TypeDef",
+        "location": {
+          "column": "3",
+          "line": "59",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "TCON_TypeDef",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_8_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@TCON_Timing_TypeDef",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@pixel_clock_hz",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "pixel_clock_hz",
+        "location": {
+          "column": "6",
+          "line": "62",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "pixel_clock_hz",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@h_front_porch",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "h_front_porch",
+        "location": {
+          "column": "6",
+          "line": "63",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "h_front_porch",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@h_back_porch",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "h_back_porch",
+        "location": {
+          "column": "6",
+          "line": "64",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "h_back_porch",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@h_sync_len",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "h_sync_len",
+        "location": {
+          "column": "6",
+          "line": "65",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "h_sync_len",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@v_front_porch",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "v_front_porch",
+        "location": {
+          "column": "6",
+          "line": "66",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "v_front_porch",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@v_back_porch",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "v_back_porch",
+        "location": {
+          "column": "6",
+          "line": "67",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "v_back_porch",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@v_sync_len",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "v_sync_len",
+        "location": {
+          "column": "6",
+          "line": "68",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "v_sync_len",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@h_sync_active",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "h_sync_active",
+        "location": {
+          "column": "6",
+          "line": "69",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "h_sync_active",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@v_sync_active",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "v_sync_active",
+        "location": {
+          "column": "6",
+          "line": "70",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "v_sync_active",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@den_active",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "den_active",
+        "location": {
+          "column": "6",
+          "line": "71",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "den_active",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:@SA@TCON_Timing_TypeDef@FI@clk_active",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "clk_active",
+        "location": {
+          "column": "6",
+          "line": "72",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "clk_active",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      },
+      {
+        "ID": "c:tcon.h@T@TCON_Timing_TypeDef",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct TCON_Timing_TypeDef",
+        "location": {
+          "column": "3",
+          "line": "73",
+          "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\inc\\tcon.h"
+        },
+        "name": "TCON_Timing_TypeDef",
+        "origin": "user_include",
+        "scope": "_anonymous_tcon_h_61_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TCON_Disable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TCON_Disable(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "TCON_Disable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.c@81@F@TCON_Disable@tcon",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tcon",
+    "location": {
+      "column": "17",
+      "line": "6",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "tcon",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.c@132@F@TCON_Disable@temp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "temp",
+    "location": {
+      "column": "11",
+      "line": "7",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "temp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TCON_set_mode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TCON_set_mode(uint16_t, uint16_t, uint8_t, TCON_Timing_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "TCON_set_mode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.c@517@F@TCON_set_mode@tcon",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tcon",
+    "location": {
+      "column": "17",
+      "line": "21",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "tcon",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.c@568@F@TCON_set_mode@bp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bp",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "bp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.c@568@F@TCON_set_mode@total",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "total",
+    "location": {
+      "column": "10",
+      "line": "22",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "total",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.c@585@F@TCON_set_mode@val",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "val",
+    "location": {
+      "column": "11",
+      "line": "23",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "val",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TCON_Enable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TCON_Enable(struct fb_v3s_pdata_t *)",
+    "location": {
+      "column": "6",
+      "line": "78",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "TCON_Enable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.c@2816@F@TCON_Enable@tcon",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tcon",
+    "location": {
+      "column": "17",
+      "line": "80",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "tcon",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tcon.c@2867@F@TCON_Enable@val",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "val",
+    "location": {
+      "column": "11",
+      "line": "81",
+      "path": "D:\\1.Document\\5.RD\\LicheePi\\6.BareMetal\\V3s_Baremetal_IAR\\Lib\\Driver\\V3s\\src\\tcon.c"
+    },
+    "name": "val",
     "origin": "project_file",
     "scope": null
   },

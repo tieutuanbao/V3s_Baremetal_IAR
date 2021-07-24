@@ -135,3 +135,127 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 	write32(CCU_CPU_AXI_CFG, temp);	
 }
 
+uint64_t PLL_Get_Clock(PLL_CTRL_Enum pll_control)
+{
+	uint32_t r, n, k, m, p;
+	uint64_t rate = 0;
+
+	switch(pll_control)
+	{
+	case PLL_CPU:
+		r = read32(CCU_PLL_CPU_CTRL);
+		n = ((r >> 8) & 0x1f) + 1;
+		k = ((r >> 4) & 0x3) + 1;
+		m = ((r >> 0) & 0x3) + 1;
+		p = (r >> 16) & 0x3;
+		rate = (uint64_t)(((24 * n * k) >> p) / m);
+		break;
+
+	case PLL_AUDIO:
+		r = read32(CCU_PLL_AUDIO_CTRL);
+		if(r & (1 << 24))
+			n = ((r >> 8) & 0xf) + 1;
+		else
+			n = ((r >> 8) & 0x7f) + 1;
+		m = ((r >> 0) & 0x1f) + 1;
+		p = ((r >> 16) & 0xf) + 1;
+		rate = (uint64_t)((24 * n) / (p * m));
+		break;
+
+	case PLL_VIDEO:
+		r = read32(CCU_PLL_VIDEO_CTRL);
+		if(r & (1 << 24))
+		{
+			n = ((r >> 8) & 0x7f) + 1;
+			m = ((r >> 0) & 0x3) + 1;
+			rate = (uint64_t)((24 * n) / m);
+		}
+		else
+		{
+			if(r & (1 << 25))
+				rate = 297 * 1000 * 1000;
+			else
+				rate = 270 * 1000 * 1000;
+		}
+		break;
+
+	case PLL_VE:
+		r = read32(CCU_PLL_VE_CTRL);
+		if(r & (1 << 24))
+		{
+			n = ((r >> 8) & 0x7f) + 1;
+			m = ((r >> 0) & 0xf) + 1;
+			rate = (uint64_t)((24 * n) / m);
+		}
+		else
+		{
+			if(r & (1 << 25))
+				rate = 297 * 1000 * 1000;
+			else
+				rate = 270 * 1000 * 1000;
+		}
+		break;
+
+	case PLL_DDR0:
+		r = read32(CCU_PLL_DDR0_CTRL);
+		n = ((r >> 8) & 0x1f) + 1;
+		k = ((r >> 4) & 0x3) + 1;
+		m = ((r >> 0) & 0x3) + 1;
+		rate = (uint64_t)((24 * n * k) / m);
+		break;
+
+	case PLL_PERIPH0:
+		r = read32(CCU_PLL_PERIPH0_CTRL);
+		if(r & (1 << 25))
+			rate = 24;
+		else
+		{
+			n = ((r >> 8) & 0x1f) + 1;
+			k = ((r >> 4) & 0x3) + 1;
+			m = ((r >> 0) & 0x3) + 1;
+			rate = (uint64_t)((24 * n * k) / 2);
+		}
+		break;
+
+	case PLL_ISP:
+		r = read32(CCU_PLL_ISP_CTRL);
+		if(r & (1 << 24))
+		{
+			n = ((r >> 8) & 0x7f) + 1;
+			m = ((r >> 0) & 0xf) + 1;
+			rate = (uint64_t)((24 * n) / m);
+		}
+		else
+		{
+			if(r & (1 << 25))
+				rate = 297 * 1000 * 1000;
+			else
+				rate = 270 * 1000 * 1000;
+		}
+		break;
+
+	case PLL_PERIPH1:
+		r = read32(CCU_PLL_PERIPH1_CTRL);
+		if(r & (1 << 25))
+			rate = 24;
+		else
+		{
+			n = ((r >> 8) & 0x1f) + 1;
+			k = ((r >> 4) & 0x3) + 1;
+			m = ((r >> 0) & 0x3) + 1;
+			rate = (uint64_t)((24 * n * k) / 2);
+		}
+		break;
+
+	case PLL_DDR1:
+		r = read32(CCU_PLL_DDR1_CTRL);
+		n = ((r >> 8) & 0x7f) + 1;
+		m = ((r >> 0) & 0x3) + 1;
+		rate = (uint64_t)((24 * n) / m);
+		break;
+
+	default:
+		break;
+	}
+	return rate;
+}
