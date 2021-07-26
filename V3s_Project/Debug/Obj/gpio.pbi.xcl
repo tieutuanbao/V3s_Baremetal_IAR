@@ -1,21 +1,21 @@
-"D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\Lib\Driver\V3s\src\gpio.c"
+"D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\Lib\Driver\V3s\src\gpio.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\Lib\Driver\V3s\src
+D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\Lib\Driver\V3s\src
 -I
-D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\..\Lib\Driver\V3s\inc
+D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\..\Lib\Driver\V3s\inc
 -I
-D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\V3s_Project\..\Lib\Driver
+D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\..\Lib\Driver
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
 -I
-D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\Lib\Driver\V3s\inc
+D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\Lib\Driver\V3s\inc
 -I
-D:\1.Document\5.RD\LicheePi\6.BareMetal\V3SBareMetal\Lib\Driver
+D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\Lib\Driver
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

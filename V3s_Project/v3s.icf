@@ -2,10 +2,10 @@
 /*-Editor annotation file-*/
 /* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\a_v1_1.xml" */
 /*-Specials-*/
-define symbol __ICFEDIT_intvec_start__ = 0x00000000;
+define symbol __ICFEDIT_intvec_start__ = 0x41000000;
 /*-Memory Regions-*/
-define symbol __ICFEDIT_region_IROM1_start__ = 0x00000000;
-define symbol __ICFEDIT_region_IROM1_end__   = 0x0005FFF;
+define symbol __ICFEDIT_region_IROM1_start__ = 0x41000000;
+define symbol __ICFEDIT_region_IROM1_end__   = 0x41FFFFFF;
 define symbol __ICFEDIT_region_IROM2_start__ = 0x0;
 define symbol __ICFEDIT_region_IROM2_end__   = 0x0;
 define symbol __ICFEDIT_region_EROM1_start__ = 0x0;
@@ -14,8 +14,8 @@ define symbol __ICFEDIT_region_EROM2_start__ = 0x0;
 define symbol __ICFEDIT_region_EROM2_end__   = 0x0;
 define symbol __ICFEDIT_region_EROM3_start__ = 0x0;
 define symbol __ICFEDIT_region_EROM3_end__   = 0x0;
-define symbol __ICFEDIT_region_IRAM1_start__ = 0x0006000;
-define symbol __ICFEDIT_region_IRAM1_end__   = 0x0009FFF;
+define symbol __ICFEDIT_region_IRAM1_start__ = 0x40000000;
+define symbol __ICFEDIT_region_IRAM1_end__   = 0x40FFFFFF;
 define symbol __ICFEDIT_region_IRAM2_start__ = 0x0;
 define symbol __ICFEDIT_region_IRAM2_end__   = 0x0;
 define symbol __ICFEDIT_region_ERAM1_start__ = 0x0;
@@ -25,7 +25,7 @@ define symbol __ICFEDIT_region_ERAM2_end__   = 0x0;
 define symbol __ICFEDIT_region_ERAM3_start__ = 0x0;
 define symbol __ICFEDIT_region_ERAM3_end__   = 0x0;
 /*-Sizes-*/
-define symbol __ICFEDIT_size_cstack__   = 0x2000;
+define symbol __ICFEDIT_size_cstack__   = 0x400;
 define symbol __ICFEDIT_size_svcstack__ = 0x100;
 define symbol __ICFEDIT_size_irqstack__ = 0x100;
 define symbol __ICFEDIT_size_fiqstack__ = 0x100;
@@ -71,3 +71,6 @@ place in IRAM_region  { readwrite,
                         block CSTACK, block SVC_STACK, block IRQ_STACK, block FIQ_STACK,
                         block UND_STACK, block ABT_STACK, block HEAP };
 place in ERAM_region  { readwrite section application_specific_rw };
+
+//define region DATA_region = mem:[from 0x40000000 to 0x41FFFFFF ];
+//place in DATA_region { readwrite section MY_DATA };

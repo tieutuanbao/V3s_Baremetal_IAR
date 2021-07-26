@@ -43,6 +43,7 @@ void main(){
 	
 	PORTB_4 = 1;
 	display_Init();
+	
 	while(1){
 		PORTG_0 = 0;
 		delay_ms(2000);

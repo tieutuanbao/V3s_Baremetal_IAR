@@ -16,7 +16,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/* Place following data in section MY_DATA */
+//#pragma default_variable_attributes = @ "MY_DATA"
 uint8_t vrambuf[800*480*4];
+/* Stop placing data in section MY_DATA */
+//#pragma default_variable_attributes =
+
 uint8_t *vram = vrambuf;
 
 void DE_set_mode(uint32_t width, uint32_t height){
@@ -28,9 +33,10 @@ void DE_set_mode(uint32_t width, uint32_t height){
 	
 	if(vram == 0){
 		vram = (uint8_t *)malloc(pixlen);
-	}else if(sizeof(vram) < pixlen){
-		vram = (uint8_t *)realloc(vram, pixlen);
 	}
+//else if(sizeof(vram) < pixlen){
+//		vram = (uint8_t *)realloc(vram, pixlen);
+//	}
 
 	/* set Reset off */
 	temp = read32(DE_DISP_SYS_AHB_RESET);

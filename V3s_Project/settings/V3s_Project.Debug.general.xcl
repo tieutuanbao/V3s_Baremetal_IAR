@@ -6,6 +6,8 @@
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
 
+--macro="D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\DRAMInit.mac" 
+
 
 
 

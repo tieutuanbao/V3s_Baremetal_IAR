@@ -32,11 +32,11 @@
                 </option>
                 <option>
                     <name>MacOverride</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>MacFile</name>
-                    <state></state>
+                    <state>D:\1.Document\5.RD\LicheePi\6.BareMetal\V3s_Baremetal_IAR\V3s_Project\DRAMInit.mac</state>
                 </option>
                 <option>
                     <name>MemOverride</name>

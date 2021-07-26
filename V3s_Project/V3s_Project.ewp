@@ -362,7 +362,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -371,7 +371,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CompilerMisraRules98</name>
@@ -2084,6 +2084,9 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\display.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\dram.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\gic.c</name>

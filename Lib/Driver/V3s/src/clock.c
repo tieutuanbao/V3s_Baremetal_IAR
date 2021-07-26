@@ -37,7 +37,12 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			temp |= (1U << 31);					// Enable PLL
 			temp |= ((pllParam.P >> 1) << 16) | ((pllParam.N - 1) << 8) | ((pllParam.K - 1) << 4) | (pllParam.M - 1);
 			write32(CCU_PLL_CPU_CTRL, temp);
-			while((CCU_PLL_CPU_CTRL & CCU_PLL_LOCKED_MASK) == 0);
+			while((read32(CCU_PLL_CPU_CTRL) & CCU_PLL_LOCKED_MASK) == 0);
+						
+			temp = read32(CCU_CPU_AXI_CFG);
+			temp &= ~(0x03 << 16);
+			temp |=  (0x02 << 16);
+			write32(CCU_CPU_AXI_CFG, temp);	
 			break;
 		}
 		case PLL_AUDIO:{
@@ -48,7 +53,7 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			temp |= (1U << 31);					// Enable PLL
 			temp |= ((pllParam.P - 1) << 16) | ((pllParam.N - 1) << 8) | (pllParam.M - 1);
 			write32(CCU_PLL_AUDIO_CTRL, temp);
-			while((CCU_PLL_AUDIO_CTRL & CCU_PLL_LOCKED_MASK) == 0);
+			while((read32(CCU_PLL_AUDIO_CTRL) & CCU_PLL_LOCKED_MASK) == 0);
 			break;
 		}
 		case PLL_VIDEO:{
@@ -59,7 +64,7 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			temp |= (1U << 31);					// Enable PLL
 			temp |= ((pllParam.N - 1) << 8) | (pllParam.M - 1);
 			write32(CCU_PLL_VIDEO_CTRL, temp);
-			while((CCU_PLL_VIDEO_CTRL & CCU_PLL_LOCKED_MASK) == 0);
+			while((read32(CCU_PLL_VIDEO_CTRL) & CCU_PLL_LOCKED_MASK) == 0);
 			break;
 		}
 		case PLL_VE:{
@@ -70,7 +75,7 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			temp |= (1U << 31);					// Enable PLL
 			temp |= ((pllParam.N - 1) << 8) | (pllParam.M - 1);
 			write32(CCU_PLL_VE_CTRL, temp);
-			while((CCU_PLL_VE_CTRL & CCU_PLL_LOCKED_MASK) == 0);
+			while((read32(CCU_PLL_VE_CTRL) & CCU_PLL_LOCKED_MASK) == 0);
 			break;
 		}
 		case PLL_DDR0:{
@@ -79,9 +84,11 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			
 			temp = read32(CCU_PLL_DDR0_CTRL);
 			temp |= (1U << 31);					// Enable PLL
+			temp |= (0x0U << 24);
+			temp |= (1U << 20);
 			temp |= ((pllParam.N - 1) << 8) | ((pllParam.K - 1) << 4) | (pllParam.M - 1);
 			write32(CCU_PLL_DDR0_CTRL, temp);
-			while((CCU_PLL_DDR0_CTRL & CCU_PLL_LOCKED_MASK) == 0);
+			while((read32(CCU_PLL_DDR0_CTRL) & CCU_PLL_LOCKED_MASK) == 0);
 			break;
 		}
 		case PLL_PERIPH0:{
@@ -92,7 +99,7 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			temp |= (1U << 31);					// Enable PLL
 			temp |= ((pllParam.N - 1) << 8) | ((pllParam.K - 1) << 4) | (pllParam.M - 1);
 			write32(CCU_PLL_PERIPH0_CTRL, temp);
-			while((CCU_PLL_PERIPH0_CTRL & CCU_PLL_LOCKED_MASK) == 0);
+			while((read32(CCU_PLL_PERIPH0_CTRL) & CCU_PLL_LOCKED_MASK) == 0);
 			break;
 		}
 		case PLL_ISP:{
@@ -103,7 +110,7 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			temp |= (1U << 31);					// Enable PLL
 			temp |= ((pllParam.N - 1) << 8) | (pllParam.M - 1);
 			write32(CCU_PLL_ISP_CTRL, temp);
-			while((CCU_PLL_ISP_CTRL & CCU_PLL_LOCKED_MASK) == 0);			
+			while((read32(CCU_PLL_ISP_CTRL) & CCU_PLL_LOCKED_MASK) == 0);			
 			break;
 		}
 		case PLL_PERIPH1:{
@@ -114,7 +121,7 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			temp |= (1U << 31);					// Enable PLL
 			temp |= ((pllParam.N - 1) << 8) | ((pllParam.K - 1) << 4) | (pllParam.M - 1);
 			write32(CCU_PLL_PERIPH1_CTRL, temp);
-			while((CCU_PLL_PERIPH1_CTRL & CCU_PLL_LOCKED_MASK) == 0);
+			while((read32(CCU_PLL_PERIPH1_CTRL) & CCU_PLL_LOCKED_MASK) == 0);
 			break;
 		}
 		case PLL_DDR1:{
@@ -125,14 +132,10 @@ void PLL_Init(PLL_CTRL_Enum pll, PLL_PARAM_TypeDef pllParam)
 			temp |= (1U << 31);					// Enable PLL
 			temp |= ((pllParam.N - 1) << 8) | (pllParam.M - 1);
 			write32(CCU_PLL_DDR1_CTRL, temp);
-			while((CCU_PLL_DDR1_CTRL & CCU_PLL_LOCKED_MASK) == 0);
+			while((read32(CCU_PLL_DDR1_CTRL) & CCU_PLL_LOCKED_MASK) == 0);
 			break;
 		}
 	}
-	temp = read32(CCU_CPU_AXI_CFG);
-	temp &= ~(0x03 << 16);
-	temp |=  (0x02 << 16);
-	write32(CCU_CPU_AXI_CFG, temp);	
 }
 
 uint64_t PLL_Get_Clock(PLL_CTRL_Enum pll_control)

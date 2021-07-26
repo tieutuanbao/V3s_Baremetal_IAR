@@ -129,7 +129,6 @@ __iar_program_start:
 #define  ARMV7_MODE_MASK          0x1f
 #define  ARMV7_FIQ_MASK           0x40
 #define  ARMV7_IRQ_MASK           0x80
-#define CR_V	0x2000	;Vectors relocated to 0xffff0000
 
 	MRS     r0, cpsr                ; Original PSR value
 

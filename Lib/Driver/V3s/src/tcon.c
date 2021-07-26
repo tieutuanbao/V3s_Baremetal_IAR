@@ -81,6 +81,6 @@ void TCON_Enable()
 	uint32_t val;
 
 	val = read32((uint32_t)&tcon->ctrl);
-	val |= (1 << 31);
+	val |= (1U << 31);
 	write32((uint32_t)&tcon->ctrl, val);
 }

@@ -72,4 +72,10 @@ typedef struct {
 	int clk_active;
 } TCON_Timing_TypeDef;
 
+
+void TCON_Enable();
+void TCON_Disable();
+void TCON_set_mode(uint16_t width, uint16_t height, uint8_t bits_per_pixel, TCON_Timing_TypeDef timing);
+
+
 #endif

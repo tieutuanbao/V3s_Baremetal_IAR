@@ -2383,6 +2383,9 @@
                 <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\display.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\dram.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\Lib\Driver\V3s\src\gic.c</name>
             </file>
             <file>

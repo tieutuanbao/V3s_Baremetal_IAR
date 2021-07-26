@@ -11,6 +11,8 @@
 	******************************************************************************
 	*/
 
+#ifndef __DE_H
+#define __DE_H
 
 #include "memmap.h"
 #include <stdint.h>
@@ -104,3 +106,11 @@ typedef struct {
 	uint32_t bot_haddr;
 	uint32_t ovl_size;
 } DE_UI_TypeDef;
+
+
+
+void DE_Enable();
+void DE_Set_Address();
+void DE_set_mode(uint32_t width, uint32_t height);
+
+#endif

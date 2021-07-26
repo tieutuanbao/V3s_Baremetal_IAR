@@ -15,6 +15,7 @@
 #include "gpio.h"
 #include "clock.h"
 #include "de.h"
+#include "tcon.h"
 
 
 void display_Init(){
@@ -35,8 +36,24 @@ void display_Init(){
 	write32(CCU_DE_CLK, read32(CCU_DE_CLK)|(1U<<31));					// Enable Gating Clock
 	write32(CCU_TCON_CLK, read32(CCU_TCON_CLK)|(1U<<31));			// Enable Gating Clock
 	
-	/* ------------------ TCON Disable ------------------ */
-	write32(TCON_BASE, read32(TCON_BASE)|(1U<<31));
-	/* ------------------ DE set mode ------------------ */
-//	write32();
+	TCON_Timing_TypeDef timing;
+	timing.pixel_clock_hz = 33000000;
+	timing.h_front_porch = 40;
+	timing.h_back_porch = 87;
+	timing.h_sync_len = 1;
+	timing.v_front_porch = 13;
+	timing.v_back_porch = 31;
+	timing.v_sync_len = 1;
+	timing.h_sync_active = 0;
+	timing.v_sync_active = 0;
+	timing.den_active = 0;
+	timing.clk_active = 0;
+
+	TCON_Disable();
+	DE_set_mode(800, 480);
+	DE_Enable();
+	TCON_set_mode(800, 480, 24, timing);
+	TCON_Enable();
+	DE_Set_Address();
+	DE_Enable();
 }
